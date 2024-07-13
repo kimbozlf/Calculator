@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(53, 53, 53, 0.741);
+}
+div.calculator {
+    width: 30vw;
+    background-color: rgb(65, 65, 65);
+    margin: 70px auto;
+    outline: 2px solid white;
+    outline-offset: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+@media (max-width:1360px) {
+    div.calculator {
+        width: 35vw;
+    }
+}
+@media (max-width:1165px) {
+    div.calculator {
+        width: 42vw;
+    }
+}
+@media (max-width:975px) {
+    div.calculator {
+        width: 50vw;
+    }
+}
+@media (max-width:815px) {
+    div.calculator {
+        width: 58vw;
+    }
+}
+@media (max-width:705px) {
+    div.calculator {
+        width: 67vw;
+    }
+}
+@media (max-width:610px) {
+    div.calculator {
+        width: 78vw;
+    }
+}
+@media (max-width:520px) {
+    div.calculator {
+        width: 88vw;
+    }
+}
+@media (max-width:465px) {
+    div.calculator {
+        width: 93vw;
+    }
+}
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    outline: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(97, 97, 97);
+    color: white;
+}
+div#buttons {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 10px;
+    background-color: rgb(65, 65, 65);
+    border-radius:20px;
+}
+button {
+    padding: 25px 35px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 100, 100);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button#slash {
+    padding: 25px 36px;
+}
+button#del {
+    padding: 25px 20px;
+}
+button#c {
+    padding: 25px 30px;
+}
+button#dot {
+    padding: 25px 38px;
+}
+button:hover {
+    background-color: rgb(38, 115, 115);
+}
+button:active {
+    background-color: rgb(61, 148, 148);
+}
+button.equal {
+    padding: 25px 130px;
+    border-radius: 20px;
+}
